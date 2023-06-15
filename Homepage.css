@@ -15,11 +15,11 @@ img {
 
 header{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 45px;
 }
 a{
-    font-size: 20px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .fancy-button {
@@ -35,4 +35,24 @@ a{
   .fancy-button:hover {
     background-color: #1d7ec4;
   }
+  .font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .search-container {
+    text-align: right;
+  }
+  
+  .search-input {
+    padding: 8px 16px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .search-button i {
+    margin-right: 4px;
+  }
+  .links {
+  }
+  
   
