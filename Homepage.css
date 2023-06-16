@@ -25,7 +25,7 @@ a{
 .fancy-button {
     display: inline-block;
     padding: 5px 10px;
-    background-color: rgb(39, 223, 232);
+    background-color: rgb(255, 255, 255);
     color: #000000;
     text-decoration: none;
     border-radius: 25px;
@@ -40,6 +40,10 @@ a{
   }
   .search-container {
     text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+
   }
   
   .search-input {
@@ -52,7 +56,28 @@ a{
   .search-button i {
     margin-right: 4px;
   }
-  .links {
+    .height {
+        display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: relative;
+}
+.links{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.sign-in-button {
+    margin-left: 10px;
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+
   }
   
   
