@@ -1,16 +1,15 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(192, 185, 185);
 }
 
-
 img {
-    border-radius: 50%;    
 
 }
 .center {
     display: block;
     margin-left: 0;
     margin-right: auto;
+
 }
 
 header{
@@ -25,15 +24,15 @@ a{
 .fancy-button {
     display: inline-block;
     padding: 5px 10px;
-    background-color: rgb(255, 255, 255);
-    color: #000000;
+    background-color:  rgb(192, 185, 185);
+    color: #321d78;
     text-decoration: none;
     border-radius: 25px;
     font-weight: bold;
   }
   
   .fancy-button:hover {
-    background-color: #1d7ec4;
+    background-color: #ffffff;
   }
   .font{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -63,33 +62,38 @@ a{
   position: relative;
 }
 .links{
-    position: absolute;
-    top: 0;
-    left: 0;
-
+margin-right: 200px;
+margin-top: 5px;
 }
-.sign-in-button {
-    margin-left: 10px;
-  padding: 10px 20px;
-  background-color: rgb(255, 255, 255);
-  color: #000000;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-
-  }
 .name{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #1534be;
-    margin-left: 400px;
-    margin-top: 100px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3c2d92;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 16px;
+    
 }
 .para{
+    padding: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #1534be;
-    margin-left: 400px;
-    margin-top: 100px;
-
+    color: #321d78;
+    margin-left: 100px;
+    margin-top: 00px;
+    width: 600px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.rylan{
+    padding: 0px;
+    font-size: 75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 100px;
+    margin-top: 30px;
+    color: #000000;
+}
+.image{
+    margin-left: 750px;
+    margin-bottom: 800px;
 }
   
